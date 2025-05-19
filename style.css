@@ -1,40 +1,44 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-image: url("waves.png");
-    border-right: 18px dotted white;
-    border-left: 18px dotted white;
-    color:white;
+    border-right: 48px dotted white;
+    border-left: 48px dotted white;
     height:100vh;
+}
+
+hr{
+    color: white;
 }
 
 title{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:white;
 }
 .content {
     margin: auto;
     width: 90%;
     max-width: 800px;
     display: none;
-    background: pink;
+    background: #fbd4d4;
     color:white;
 }
 
 .header {
     text-align: center;
-    color:white;
+}
+
+a {
+    color: white;
 }
 
 .header h1 {
     margin-bottom: 0px;
-    color:white;
 }
 
 .navbar {
     overflow: hidden;
     margin: auto;
     display: table;
-    color:white;
+    background-color: #ffbd5f;
 }
 
 .navbar li{
@@ -43,5 +47,4 @@ title{
     text-align: center;
     padding-left: 15px;
     padding-right: 15px;
-    color:white;
 }
