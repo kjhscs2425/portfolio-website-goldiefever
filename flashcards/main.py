@@ -207,6 +207,9 @@ def quiz(category, choice, user):
         # else:
         print(f"Good job {username}!!! This time you answered {category_single_right}/{len(questions_asked)} questions correctly in the category {category}")
         print(f"In total, you have answered {category_total_right} questions correctly in the category {category}, and {total_right} questions correctly overall")
+        playagain = input("Would you like to play again? y/n")
+        if playagain.lower()=="y":
+             main()
     sum_stats()
     
     # Write the `data` variable to the file "flashcards_data.json"
