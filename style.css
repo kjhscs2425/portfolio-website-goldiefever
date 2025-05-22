@@ -22,6 +22,12 @@ title{
     color:white;
 }
 
+video {
+    margin: auto;
+    width: 90%;
+    text-align: center;
+}
+
 .header {
     text-align: center;
 }
